@@ -15,7 +15,7 @@ header {
   background-color: #0b3d91;
   color: white;
   padding: 2rem 1rem;
-  text-align: center;
+  text-align: center;  
 }
 
 header h1 {
@@ -73,7 +73,7 @@ footer {
   color: white;
   text-align: center;
   padding: 1rem;
-  margin-top: 2rem;
+  
   font-size: 0.9rem;
 }
 
