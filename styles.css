@@ -84,3 +84,39 @@ footer {
   margin-top: 2rem;
   font-size: 0.9rem;
 }
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  background-color: #E0F2F1;
+}
+li {
+  display: inline-block;
+  position: relative;
+}
+a {
+  color: white;
+  padding: 14px 20px;
+  display: block;
+  text-decoration: none;
+}
+a:hover {
+  background-color: #18c4bb;
+  text-decoration: none !important;
+}
+/* Stile per il menu a tendina */
+li ul {
+  display: none;
+  position: absolute;
+  background-color: #E0F2F1;
+  min-width: 160px;
+  z-index: 1;
+}
+li:hover > ul {
+  display: block;
+  text-decoration: none !important;
+}
+li ul li {
+  display: block;
+  text-decoration: none !important;
+}
