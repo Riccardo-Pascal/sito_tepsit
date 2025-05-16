@@ -10,6 +10,12 @@ body {
   background-color: #f4f8f6;
   color: #1a1a1a;
 }
+#what_img{
+  float: right;
+  margin-left: 20px;
+  margin-top: 20px;
+
+}
 
 #intImg {
 
@@ -20,7 +26,7 @@ body {
 }
 
 header {
-  background-color: #0b3d91;
+  background-color: #1d55b4;
   color: white;
   padding: 2rem 1rem;
   text-align: center;
@@ -41,7 +47,7 @@ nav {
 
 nav a {
   text-decoration: none;
-  color: #0b3d91;
+  color: #1d55b4;
   font-weight: 600;
   transition: color 0.3s ease;
 }
