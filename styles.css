@@ -133,3 +133,17 @@ li ul li {
   display: block;
   text-decoration: none !important;
 }
+    .scroll-top {
+      position: fixed;
+      bottom: 80px;
+      left: 20px;
+      background-color: #1D55B4;
+      color: white;
+      padding: 10px 15px;
+      border: none;
+      border-radius: 8px;
+      text-decoration: none;
+      font-size: 16px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+      transition: background-color 0.3s;
+    }
